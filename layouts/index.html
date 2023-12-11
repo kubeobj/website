@@ -92,10 +92,9 @@ url(./assets/images/bg-image/gradient-bg.webp);">
               <span class="action maximize"></span>
               <span class="action minimize"></span>
             </div>
-            {{ highlight (printf `helm install stash oci://ghcr.io/appscode-charts/stash \
+            {{ highlight (printf `helm install kubestash oci://ghcr.io/appscode-charts/kubestash \
   --version %s \
   --namespace stash --create-namespace \
-  --set features.enterprise=true \
   --set-file global.license=/path/to/the/license.txt \
   --wait --burst-limit=10000 --debug` $p.latestVersion) "bash" "style=dracula" }}
           </div>
