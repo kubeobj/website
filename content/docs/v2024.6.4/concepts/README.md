@@ -13,6 +13,7 @@ url: /docs/v2024.6.4/concepts/
 aliases:
 - /docs/v2024.6.4/concepts/README/
 info:
+  cli: v0.8.0
   installer: v2024.6.4
   version: v2024.6.4
 ---

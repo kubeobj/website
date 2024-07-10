@@ -15,6 +15,7 @@ aliases:
 - /docs/v2024.6.4/
 - /docs/v2024.6.4/README/
 info:
+  cli: v0.8.0
   installer: v2024.6.4
   version: v2024.6.4
 ---

@@ -14,6 +14,7 @@ url: /docs/v2024.6.4/welcome/support/
 aliases:
 - /docs/v2024.6.4/support/
 info:
+  cli: v0.8.0
   installer: v2024.6.4
   version: v2024.6.4
 ---

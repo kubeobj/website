@@ -10,6 +10,7 @@ product_name: kubestash
 menu_name: docs_v2024.6.4
 section_menu_id: concepts
 info:
+  cli: v0.8.0
   installer: v2024.6.4
   version: v2024.6.4
 ---

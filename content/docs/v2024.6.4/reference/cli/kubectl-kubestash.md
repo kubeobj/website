@@ -12,6 +12,7 @@ url: /docs/v2024.6.4/reference/cli/
 aliases:
 - /docs/v2024.6.4/reference/cli/kubectl-kubestash/
 info:
+  cli: v0.8.0
   installer: v2024.6.4
   version: v2024.6.4
 ---
