@@ -1,31 +1,35 @@
 ---
-title: Kubectl-Kubestash
+title: Convert
 menu:
   docs_v2025.2.10:
-    identifier: kubectl-kubestash
-    name: Kubectl-Kubestash
+    identifier: kubectl-kubestash-convert
+    name: Convert
     parent: reference-cli
-    weight: 0
 menu_name: docs_v2025.2.10
 section_menu_id: reference
-url: /docs/v2025.2.10/reference/cli/
-aliases:
-- /docs/v2025.2.10/reference/cli/kubectl-kubestash/
 info:
   cli: v0.15.0
   installer: v2025.2.10
   version: v2025.2.10
 ---
 
-## kubectl-kubestash
+## kubectl-kubestash convert
 
-kubectl plugin for KubeStash
+Convert Stash resources yaml to Kubestash resources yaml
 
-### Synopsis
-
-kubectl plugin for KubeStash. For more information, visit here: https://kubestash.com
+```
+kubectl-kubestash convert [flags]
+```
 
 ### Options
+
+```
+  -h, --help                help for convert
+      --source-dir string   Source directory.
+      --target-dir string   Target directory.
+```
+
+### Options inherited from parent commands
 
 ```
       --as string                             Username to impersonate for the operation. User could be a regular user or a service account in a namespace.
@@ -39,7 +43,6 @@ kubectl plugin for KubeStash. For more information, visit here: https://kubestas
       --context string                        The name of the kubeconfig context to use
       --default-seccomp-profile-type string   Default seccomp profile
       --disable-compression                   If true, opt-out of response compression for all requests to the server
-  -h, --help                                  help for kubectl-kubestash
       --insecure-skip-tls-verify              If true, the server's certificate will not be checked for validity. This will make your HTTPS connections insecure
       --kubeconfig string                     Path to the kubeconfig file to use for CLI requests.
       --match-server-version                  Require server version to match client version
@@ -53,16 +56,5 @@ kubectl plugin for KubeStash. For more information, visit here: https://kubestas
 
 ### SEE ALSO
 
-* [kubectl-kubestash clone](/docs/v2025.2.10/reference/cli/kubectl-kubestash_clone)	 - Clone Kubernetes resources
-* [kubectl-kubestash completion](/docs/v2025.2.10/reference/cli/kubectl-kubestash_completion)	 - Generate completion script
-* [kubectl-kubestash convert](/docs/v2025.2.10/reference/cli/kubectl-kubestash_convert)	 - Convert Stash resources yaml to Kubestash resources yaml
-* [kubectl-kubestash copy](/docs/v2025.2.10/reference/cli/kubectl-kubestash_copy)	 - Copy kubestash resources from one namespace to another namespace
-* [kubectl-kubestash debug](/docs/v2025.2.10/reference/cli/kubectl-kubestash_debug)	 - Debug common KubeStash issues
-* [kubectl-kubestash download](/docs/v2025.2.10/reference/cli/kubectl-kubestash_download)	 - Download components of a snapshot
-* [kubectl-kubestash password](/docs/v2025.2.10/reference/cli/kubectl-kubestash_password)	 - Manage restic keys (passwords) for accessing the repository
-* [kubectl-kubestash pause](/docs/v2025.2.10/reference/cli/kubectl-kubestash_pause)	 - Pause KubeStash backup temporarily
-* [kubectl-kubestash resume](/docs/v2025.2.10/reference/cli/kubectl-kubestash_resume)	 - Resume KubeStash backup
-* [kubectl-kubestash trigger](/docs/v2025.2.10/reference/cli/kubectl-kubestash_trigger)	 - Trigger a backup
-* [kubectl-kubestash unlock](/docs/v2025.2.10/reference/cli/kubectl-kubestash_unlock)	 - Unlock Restic Repositories
-* [kubectl-kubestash version](/docs/v2025.2.10/reference/cli/kubectl-kubestash_version)	 - Prints binary version number.
+* [kubectl-kubestash](/docs/v2025.2.10/reference/cli/kubectl-kubestash)	 - kubectl plugin for KubeStash
 
