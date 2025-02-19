@@ -40,3 +40,4 @@ This concept section is divided into the following modules:
 - [BackupBlueprint](/docs/v2025.2.10/concepts/crds/backupblueprint/) introduces the concept of `BackupBlueprint` crd that represents a blueprint for `BackupConfiguration` objects. It allows for the automatic creation of `BackupConfiguration`s for similar targets based on the blueprint.
 - [Snapshot](/docs/v2025.2.10/concepts/crds/snapshot/) introduces the concept of `Snapshot` crd which represents the state of a backup run for one or more components of an application.
 - [RetentionPolicy](/docs/v2025.2.10/concepts/crds/retentionpolicy/) introduces the concept of `RetentionPolicy` crd that represents how the old `Snapshots` should be cleaned up.
+- [BackupVerificationSession](/docs/v2025.2.10/concepts/crds/backupverificationsession/) introduces the concept of `BackupVerificationSession` crd that represents how one backup verification run for the target pointed by the `BackupConfiguration`.

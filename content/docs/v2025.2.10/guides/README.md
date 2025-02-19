@@ -29,6 +29,7 @@ Guides show how to perform different operations with KubeStash. We have divided 
 - [Auto Backup](/docs/v2025.2.10/guides/auto-backup/overview/): Shows how to configure automatic backup of any stateful workload in your cluster.
 - [Volume Snapshot](/docs/v2025.2.10/guides/volumesnapshot/overview/): Shows how KubeStash takes snapshot of `PersistentVolumeClaim`s and restore them from snapshot using Kubernetes `VolumeSnapshot` API.
 - [Platforms](/docs/v2025.2.10/guides/platforms/eks-irsa/): Shows how to use KubeStash to backup and restore volumes of a Kubernetes workload running in different platforms.
+- [Monitoring](/docs/v2025.2.10/guides/monitoring/overview/): Shows how Prometheus monitoring works with KubeStash, what metrics KubeStash exports, and how to enable monitoring.
 - [Hooks](/docs/v2025.2.10/guides/hooks/overview/): Shows how to execute different actions before/after the backup/restore process.
 - [CLI](/docs/v2025.2.10/guides/cli/kubectl-plugin/): Shows how to manage KubeStash objects quickly and easily using KubeStash `kubectl` plugin.
 - [Security](/docs/v2025.2.10/guides/security/rbac/): Describes different built-in cluster security support by KubeStash.
