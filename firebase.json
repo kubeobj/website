@@ -21,24 +21,6 @@
             }
           ],
           "source": "**"
-        },
-        {
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "max-age=360000"
-            }
-          ],
-          "source": "@(images|fonts|js_global)/**"
-        },
-        {
-          "headers": [
-            {
-              "key": "Cache-Control",
-              "value": "max-age=300"
-            }
-          ],
-          "source": "404.html"
         }
       ],
       "redirects": [
