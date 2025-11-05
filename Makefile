@@ -4,7 +4,7 @@ run:
 
 .PHONY: docs
 docs: hugo-tools
-	$(HUGO_TOOLS) docs-aggregator --fm-replacements product_kubestash_=docs_,/products/kubestash/=/docs/
+	$(HUGO_TOOLS) docs-aggregator --fm-replacements product_kubeobj_=docs_,/products/kubeobj/=/docs/
 	find ./data -name "*.json" -exec sed -i 's/https:\/\/cdn.appscode.com\/images/\/assets\/images/g' {} \;
 	rm -rf static/files/cluster-api
 	rm -rf static/files/cluster-api-provider-aws
@@ -13,16 +13,15 @@ docs: hugo-tools
 	rm -rf static/files/products/appscode/aws-marketplace
 	rm -rf static/files/products/appscode/azure-marketplace
 	rm -rf static/files/products/appscode/gcp-marketplace
-	rm -rf content/overview/stashed
 
 .PHONY: docs-skip-assets
 docs-skip-assets: hugo-tools
-	$(HUGO_TOOLS) docs-aggregator --skip-assets --fm-replacements product_kubestash_=docs_,/products/kubestash/=/docs/
+	$(HUGO_TOOLS) docs-aggregator --skip-assets --fm-replacements product_kubeobj_=docs_,/products/kubeobj/=/docs/
 	find ./data -name "*.json" -exec sed -i 's/https:\/\/cdn.appscode.com\/images/\/assets\/images/g' {} \;
 
 .PHONY: assets
 assets: hugo-tools
-	$(HUGO_TOOLS) docs-aggregator --only-assets --fm-replacements product_kubestash_=docs_,/products/kubestash/=/docs/
+	$(HUGO_TOOLS) docs-aggregator --only-assets --fm-replacements product_kubeobj_=docs_,/products/kubeobj/=/docs/
 	find ./data -name "*.json" -exec sed -i 's/https:\/\/cdn.appscode.com\/images/\/assets\/images/g' {} \;
 	rm -rf static/files/cluster-api
 	rm -rf static/files/cluster-api-provider-aws
@@ -31,7 +30,6 @@ assets: hugo-tools
 	rm -rf static/files/products/appscode/aws-marketplace
 	rm -rf static/files/products/appscode/azure-marketplace
 	rm -rf static/files/products/appscode/gcp-marketplace
-	rm -rf content/overview/stashed
 
 .PHONY: gen
 gen:

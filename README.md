@@ -1,4 +1,4 @@
-# kubestash-website
+# kubeobj-website
 
 ## Setup Dev workstation
 

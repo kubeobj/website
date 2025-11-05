@@ -7,14 +7,14 @@
     "kubedb-new-e7965": {
       "hosting": {
         "hugo": [
-          "kubestash-qa"
+          "kubeobj-qa"
         ]
       }
     },
     "appscode-domains": {
       "hosting": {
         "hugo": [
-          "kubestash-prod"
+          "kubeobj-prod"
         ]
       }
     }

@@ -1,5 +1,5 @@
 title: KubeStash - Backup and Recovery Solution for Kubernetes
-baseurl: https://kubestash.com
+baseurl: https://kubeobj.com
 languageCode: en-us
 assetDir: static
 googleAnalytics: UA-62096468-4
@@ -8,7 +8,7 @@ disableKinds:
 - taxonomyTerm
 theme: hugo-product-theme
 params:
-  product_key: kubestash
+  product_key: kubeobj
   primary_color: 431BB1
   appscode_notification_show: true
   main_menu_dropdown_item: addons
@@ -20,6 +20,7 @@ params:
   domain_kubeci: https://kube.ci
   domain_kubedb: https://kubedb.com
   domain_kubeform: https://kubeform.com
+  domain_kubeobj: https://kubeobj.com
   domain_kubeshield: https://kubeshield.com
   domain_kubestash: https://kubestash.com
   domain_kubevault: https://kubevault.com
@@ -68,12 +69,6 @@ menu:
     weight: 20
     pre: /assets/images/addons/logos/mariadbs.svg
     pageRef: /addons/databases/backup-and-restore-mariadb-on-kubernetes/
-  # - name: MongoDB
-  #   identifier: mongodb
-  #   parent: addons
-  #   weight: 40
-  #   pre: /assets/images/addons/logos/mongodb.svg
-  #   pageRef: /addons/databases/backup-and-restore-mongodb-on-kubernetes/
   - name: MySQL
     identifier: mysql
     parent: addons
@@ -86,18 +81,6 @@ menu:
     weight: 80
     pre: /assets/images/addons/logos/postgres.svg
     pageRef: /addons/databases/backup-and-restore-postgres-on-kubernetes/
-  # - name: Redis
-  #   identifier: redis
-  #   parent: addons
-  #   weight: 100
-  #   pre: /assets/images/addons/logos/redis.svg
-  #   pageRef: /addons/databases/backup-and-restore-redis-on-kubernetes/
-  # - name: KubeDump
-  #   identifier: kubedump
-  #   parent: addons
-  #   weight: 110
-  #   pre: /assets/images/addons/logos/kubedump.svg
-  #   pageRef: /addons/kubernetes/backup-kubernetes-resources/
 markup:
   goldmark:
     renderer:

@@ -82,11 +82,11 @@ jobs:
             -H "Authorization: Bearer $MEILISEARCH_ADMIN_API_KEY" \
             -H 'Content-Type: application/json' \
             --data-binary '{
-              "uid": "kubestash",
+              "uid": "kubeobj",
               "primaryKey": "documentId"
             }'
           curl \
-            -X POST 'https://search.docs.appscode.com/indexes/kubestash/documents' \
+            -X POST 'https://search.docs.appscode.com/indexes/kubeobj/documents' \
             -H "Authorization: Bearer $MEILISEARCH_ADMIN_API_KEY" \
             -H 'Content-Type: application/json' \
             --data-binary @public/index.json
