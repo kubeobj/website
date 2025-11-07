@@ -7,7 +7,7 @@ menu:
     parent: setup-docs
     weight: 1
 menu_name: docs_v2025.10.31
-section_menu_id: setup
+section_menu_id: setup-docs
 info:
   cli: v0.20.0
   installer: v2025.10.31
