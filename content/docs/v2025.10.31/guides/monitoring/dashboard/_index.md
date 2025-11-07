@@ -4,7 +4,7 @@ menu:
   docs_v2025.10.31:
     identifier: dashboard-monitoring
     name: Dashboard
-    parent: monitoring-guides
+    parent: index-monitoring
     weight: 1
 menu_name: docs_v2025.10.31
 info:

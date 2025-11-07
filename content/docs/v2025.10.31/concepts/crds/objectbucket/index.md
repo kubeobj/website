@@ -1,10 +1,10 @@
 ---
-title: Index
+title: ObjectBucket
 menu:
   docs_v2025.10.31:
     identifier: index-objectbucket
-    name: Index
-    parent: objectbucket-crds
+    name: ObjectBucket
+    parent: crds
     weight: 1
 menu_name: docs_v2025.10.31
 section_menu_id: concepts

@@ -1,4 +1,4 @@
-title: KubeStash - Backup and Recovery Solution for Kubernetes
+title: Kubernetes-Native Object Storage for the Modern Cloud
 baseurl: https://kubeobj.com
 languageCode: en-us
 assetDir: static
@@ -9,7 +9,7 @@ disableKinds:
 theme: hugo-product-theme
 params:
   product_key: kubeobj
-  primary_color: 431BB1
+  primary_color: 8C32B7
   appscode_notification_show: true
   main_menu_dropdown_item: addons
   domain_appscode: https://appscode.com
@@ -52,35 +52,8 @@ params:
   learn_url: https://appscode.com/learn
 menu:
   main:
-  - name: Addons
-    identifier: addons
-    weight: 15
   - name: Documentation
     weight: 20
-  - name: Elasticsearch
-    identifier: elasticsearch
-    parent: addons
-    weight: 10
-    pre: /assets/images/addons/logos/elasticsearch.svg
-    pageRef: /addons/databases/backup-and-restore-elasticsearch-on-kubernetes/
-  - name: MariaDB
-    identifier: mariadb
-    parent: addons
-    weight: 20
-    pre: /assets/images/addons/logos/mariadbs.svg
-    pageRef: /addons/databases/backup-and-restore-mariadb-on-kubernetes/
-  - name: MySQL
-    identifier: mysql
-    parent: addons
-    weight: 50
-    pre: /assets/images/addons/logos/mysql.svg
-    pageRef: /addons/databases/backup-and-restore-mysql-on-kubernetes/
-  - name: PostgreSQL
-    identifier: postgres
-    parent: addons
-    weight: 80
-    pre: /assets/images/addons/logos/postgres.svg
-    pageRef: /addons/databases/backup-and-restore-postgres-on-kubernetes/
 markup:
   goldmark:
     renderer:

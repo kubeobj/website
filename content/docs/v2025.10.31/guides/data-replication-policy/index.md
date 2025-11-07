@@ -1,10 +1,10 @@
 ---
-title: Index
+title: Bucket Data Replication
 menu:
   docs_v2025.10.31:
     identifier: index-data-replication-policy
-    name: Index
-    parent: data-replication-policy-guides
+    name: Bucket Data Replication
+    parent: guides
     weight: 1
 menu_name: docs_v2025.10.31
 section_menu_id: guides

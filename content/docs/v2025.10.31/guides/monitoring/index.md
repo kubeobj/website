@@ -1,10 +1,10 @@
 ---
-title: Index
+title: Monitoring
 menu:
   docs_v2025.10.31:
     identifier: index-monitoring
-    name: Index
-    parent: monitoring-guides
+    name: Monitoring
+    parent: guides
     weight: 1
 menu_name: docs_v2025.10.31
 section_menu_id: guides

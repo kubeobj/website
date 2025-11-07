@@ -1,10 +1,10 @@
 ---
-title: Index
+title: NooBaa
 menu:
   docs_v2025.10.31:
     identifier: index-overview
-    name: Index
-    parent: overview-what-is-noobaa
+    name: NooBaa
+    parent: what-is-noobaa-concepts
     weight: 1
 menu_name: docs_v2025.10.31
 section_menu_id: concepts
