@@ -1,10 +1,10 @@
 ---
-title: Index
+title: Upgrade
 menu:
   docs_v2025.10.31:
     identifier: index-upgrade
-    name: Index
-    parent: upgrade-setup
+    name: Upgrade
+    parent: setup-docs
     weight: 1
 menu_name: docs_v2025.10.31
 section_menu_id: setup

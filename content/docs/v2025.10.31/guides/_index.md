@@ -6,6 +6,9 @@ menu:
     name: Guides
     weight: 1
 menu_name: docs_v2025.10.31
+url: /docs/v2025.10.31/guides/
+aliases:
+- /docs/v2025.10.31/guides/README/
 info:
   cli: v0.20.0
   installer: v2025.10.31

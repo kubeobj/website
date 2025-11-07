@@ -4,7 +4,7 @@ menu:
   docs_v2025.10.31:
     identifier: what-is-noobaa-concepts
     name: What Is Noobaa
-    parent: concepts-docs
+    parent: concepts
     weight: 1
 menu_name: docs_v2025.10.31
 info:

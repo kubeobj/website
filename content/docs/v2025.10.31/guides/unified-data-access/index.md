@@ -1,10 +1,10 @@
 ---
-title: Index
+title: Unified Data Access
 menu:
   docs_v2025.10.31:
     identifier: index-unified-data-access
-    name: Index
-    parent: unified-data-access-guides
+    name: Unified Data Access
+    parent: guides
     weight: 1
 menu_name: docs_v2025.10.31
 section_menu_id: guides

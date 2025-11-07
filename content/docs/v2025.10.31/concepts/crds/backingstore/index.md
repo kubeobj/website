@@ -1,10 +1,10 @@
 ---
-title: Index
+title: BackingStore
 menu:
   docs_v2025.10.31:
     identifier: index-backingstore
-    name: Index
-    parent: backingstore-crds
+    name: BackingStore
+    parent: crds
     weight: 1
 menu_name: docs_v2025.10.31
 section_menu_id: concepts
